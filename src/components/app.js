@@ -5,17 +5,19 @@ class App extends React.Component{
         super(props)
     }
 
+  componentDidMount(){
+    console.log('_STATE_', this.state)
+  }
+
     render(){
         return(
 
 
               <div>
-              <body>
                         <h1>Hello World</h1>
-              </body>
-               </div>
+              </div>
         )
     }
 }
 
-export default App
+export default App;
