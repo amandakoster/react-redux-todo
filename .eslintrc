@@ -11,6 +11,7 @@
       "browser": true,
       "mocha": true
     },
+
     "rules": {
       "no-console": "off",
       "indent": [ "error", 2 ],
@@ -25,4 +26,3 @@
     },
     "extends": "eslint:recommended"
   }
-  
