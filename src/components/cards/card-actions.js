@@ -1,7 +1,7 @@
 import uuid from 'uuid/v4';
 
 export const cardCreate = (card) => {
-  card.id=uuid();
+  card.id = uuid();
   card.createDate = new Date();
 
   return {
